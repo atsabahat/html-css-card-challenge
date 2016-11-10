@@ -1,0 +1,252 @@
+﻿.noPadding {
+    padding: 0;
+}
+
+.mainContent .cardContainer {
+    width: 470px;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: #f6f7f9;
+}
+
+    .mainContent .cardContainer .cardBox {
+        border: 5px solid #2a2a2b;
+        border-radius: 7px;
+    }
+
+        .mainContent .cardContainer .cardBox .navbar {
+            background-color: #1a7bc1;
+            border-radius: 0;
+            padding-top: 7px;
+            height: 65px;
+            margin: 0;
+            z-index: 1;
+        }
+
+            .mainContent .cardContainer .cardBox .navbar .glyphicon {
+                color: #a8cde7;
+                font-size: 32px;
+                top: 7px;
+            }
+
+            .mainContent .cardContainer .cardBox .navbar .title {
+                position: absolute;
+                top: 1px;
+                left: 170px;
+                color: #e4f4ff;
+                font-size: 22px;
+                text-align: center;
+            }
+
+                .mainContent .cardContainer .cardBox .navbar .title label {
+                    margin: 0;
+                }
+
+                .mainContent .cardContainer .cardBox .navbar .title span {
+                    font-size: 18px;
+                    margin-top: -2px;
+                    display: inherit;
+                }
+
+        .mainContent .cardContainer .cardBox .introArea {
+            width: 100%;
+            height: 380px;
+            background: url(../Images/starbucksCrop2.jpg) no-repeat;
+            background-size: cover;
+            overflow: hidden;
+            position: relative;
+        }
+
+            .mainContent .cardContainer .cardBox .introArea .ribbon {
+                position: absolute;
+                right: -30px;
+                top: 13px;
+                width: 155px;
+                height: 30px;
+                color: white;
+                background-color: #da0808;
+                transform: rotate(35deg);
+                text-align: center;
+                padding: 5px 0;
+            }
+
+            .mainContent .cardContainer .cardBox .introArea .logo {
+                width: 100px;
+                margin: 35px auto 0;
+                text-align: center;
+            }
+
+                .mainContent .cardContainer .cardBox .introArea .logo img {
+                    width: 100%;
+                    border-radius: 5px;
+                }
+
+            .mainContent .cardContainer .cardBox .introArea .addr {
+                width: 100%;
+                text-align: center;
+                padding: 10px 0;
+                color: white;
+                font-size: 20px;
+            }
+
+                .mainContent .cardContainer .cardBox .introArea .addr label {
+                    font-size: 34px;
+                }
+
+            .mainContent .cardContainer .cardBox .introArea .linksArea {
+                width: 330px;
+                text-align: center;
+                margin: 15px auto 0;
+            }
+
+                .mainContent .cardContainer .cardBox .introArea .linksArea .btnLinks {
+                    width: 80px;
+                    height: 80px;
+                    border: 1px solid #525252;
+                    border-radius: 50%;
+                    margin: 5px 15px;
+                }
+
+                    .mainContent .cardContainer .cardBox .introArea .linksArea .btnLinks img {
+                        width: 50px;
+                        margin-top: 15px;
+                    }
+
+            .mainContent .cardContainer .cardBox .introArea .verifiedIcon {
+                position: absolute;
+                bottom: 30px;
+                right: 30px;
+                color: #9e9e9e;
+            }
+
+                .mainContent .cardContainer .cardBox .introArea .verifiedIcon .okIcon {
+                    position: absolute;
+                    top: 3px;
+                    right: -7px;
+                    font-size: 8px;
+                }
+
+        .mainContent .cardContainer .cardBox .middleInfo {
+            width: 100%;
+            background-color: white;
+            padding: 0 25px 20px;
+        }
+
+            .mainContent .cardContainer .cardBox .middleInfo .countersArea {
+                background-color: white;
+                border-radius: 5px;
+                margin: -15px auto 20px;
+                padding: 10px;
+                border: 1px solid gainsboro;
+                position: relative;
+                z-index: 1;
+            }
+
+                .mainContent .cardContainer .cardBox .middleInfo .countersArea .countItem {
+                    text-align: center;
+                    font-size: 20px;
+                }
+
+                    .mainContent .cardContainer .cardBox .middleInfo .countersArea .countItem label {
+                        height: 35px;
+                        font-size: 28px;
+                        margin-bottom: 0;
+                    }
+
+            .mainContent .cardContainer .cardBox .middleInfo .fallowingArea input {
+                width: 90%;
+                font-size: 22px;
+                height: 55px;
+            }
+
+            .mainContent .cardContainer .cardBox .middleInfo .fallowingArea .btnArea {
+                border: 1px solid gainsboro;
+                border-radius: 5px;
+                height: 55px;
+            }
+
+                .mainContent .cardContainer .cardBox .middleInfo .fallowingArea .btnArea .ctrlBtn {
+                    text-align: center;
+                    padding-top: 5px;
+                    height: 53px;
+                }
+
+                    .mainContent .cardContainer .cardBox .middleInfo .fallowingArea .btnArea .ctrlBtn.likeBtn {
+                        border-left: 1px solid gainsboro;
+                    }
+
+                    .mainContent .cardContainer .cardBox .middleInfo .fallowingArea .btnArea .ctrlBtn img {
+                        width: 40px;
+                    }
+
+        .mainContent .cardContainer .cardBox .bottomInfo {
+            width: 100%;
+            padding: 15px 15px 0;
+            background-color: #eee7e1;
+            box-shadow: 0 -2px 1px #cac1b9;
+        }
+
+            .mainContent .cardContainer .cardBox .bottomInfo .insiderInfo {
+                width: 100%;
+                padding: 25px 10px 20px 20px;
+                background-color: white;
+                border-radius: 5px 5px 0 0;
+                border: 1px solid #e2ded9;
+            }
+
+                .mainContent .cardContainer .cardBox .bottomInfo .insiderInfo .logo img {
+                    width: 80px;
+                }
+
+                .mainContent .cardContainer .cardBox .bottomInfo .insiderInfo .titleAddr {
+                    font-size: 20px;
+                }
+
+                    .mainContent .cardContainer .cardBox .bottomInfo .insiderInfo .titleAddr label {
+                        font-size: 28px;
+                    }
+
+        .mainContent .cardContainer .cardBox .footerSlider {
+            height: 80px;
+            background-color: black;
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+        }
+
+            .mainContent .cardContainer .cardBox .footerSlider:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 80px;
+                z-index: 1;
+                /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,1+5,0+35,0+65,1+95,1+100 */
+                background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 5%, rgba(0,0,0,0) 35%, rgba(0,0,0,0) 65%, rgba(0,0,0,1) 95%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 5%,rgba(0,0,0,0) 35%,rgba(0,0,0,0) 65%,rgba(0,0,0,1) 95%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 5%,rgba(0,0,0,0) 35%,rgba(0,0,0,0) 65%,rgba(0,0,0,1) 95%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+            }
+
+            .mainContent .cardContainer .cardBox .footerSlider .item {
+                height: 80px;
+                text-align: center;
+                font-size: 18px;
+                padding: 30px 15px 0;
+                text-transform: uppercase;
+                background-color: black;
+                color: white;
+                display: inline-block;
+                vertical-align: middle;
+                white-space: nowrap;
+            }
+
+                .mainContent .cardContainer .cardBox .footerSlider .item:first-child {
+                    margin-left: -25px;
+                }
+
+                .mainContent .cardContainer .cardBox .footerSlider .item.active {
+                    color: #04c732;
+                    border-bottom: 3px solid #747ee7;
+                }
